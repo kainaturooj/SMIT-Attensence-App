@@ -1,0 +1,365 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  .signup-container {
+    background-color: white;
+    padding: 30px;
+    padding-right: 60px;
+    border-radius:10px;
+    box-shadow: 0px 0px 10px #0e3d14(0, 0, 0, 0.1);
+    width: 300px;
+    height: 600px;
+    position: relative;
+    top: 90px;
+    left: 450px;
+  }
+ 
+  .signup-container h2 {
+    text-align: center;
+  }
+  
+  .input-group {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #0e3d14;
+  }
+  
+  input[type="text"], input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #0e3d14;
+    border-radius: 4px;
+    
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 18px;
+    margin-left: 9px;
+    background-color: #0e3d14;
+    font-size: 16px;
+    color: white;
+    border: 20px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  
+  .login-container {
+    background-color: white;
+    padding: 30px;
+    padding-right: 60px;
+    border-radius:10px;
+    box-shadow: 0px 0px 10px #0e3d14(0, 0, 0, 0.1);
+    width: 300px;
+    height: 350px;
+    position: relative;
+    top: 200px;
+    left: 450px;
+
+  }
+  
+
+  p{
+    margin-top: 20px;
+  }
+ 
+  .signup-link{
+    position: relative;
+    top: -35px;
+    left: 135px;
+    color: #0e3d14;
+  
+  }
+
+  .signup-div{
+    margin-top: -14px;
+    margin-left: 80px;
+  }
+
+  .login-div{
+
+    margin-top: -14px;
+    margin-left: 35px;
+
+  }
+
+  .login-link{
+
+    position: relative;
+    top: -34px;
+    left: 196px;
+    color: #0e3d14;
+  
+
+
+  }
+   
+ 
+  .header{
+
+    width: 100%;
+    height: 70px;
+    background-color:#0e3d14;
+    margin-top: -23px;
+    
+
+  }
+  
+  h1{
+    color: white;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    text-align: center;
+  }
+
+  h2{
+    color: #0e3d14;
+    font-weight: bolder;
+     position: relative;
+    top: -30px;
+   
+  }
+
+ 
+
+ 
+
+  .log-out{
+    position: relative;
+    top: -60px;
+    left: 1100px;
+    background-color:white ;
+    border: none;
+    border-radius: 5px;
+    width: 90px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #0e3d14;
+
+  }
+  .login-container:hover{
+    background-color:white;
+  }
+
+
+  .signup-navbar{
+
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    margin-top: 23px;
+    
+  }
+  .signup-navbar h1{
+    position: relative;
+    top: 10px;
+    left : 10px;
+    color: #0e3d14;
+  }
+
+
+  .mainPageDiv{
+    width: 100%;
+    height: 95px;
+    
+  }
+
+  .mainPageHeading{
+    position: relative;
+    top: -110px;
+    left : 10px;
+    color: #0e3d14;
+    font-size: 3rem;
+
+  }
+
+  .mainPageCards{
+    position: relative;
+    left: 250px;
+    top: 150px;
+    width: 60%;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10px;
+   
+   
+  }
+  
+  .card-1{
+    
+    width: 30%;
+    height:200px ;
+    background-color: #0e3d14;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.5rem;
+
+
+  }
+  .card-1 h1{
+    position: relative;
+    top: 3px;
+    left: 3px;
+
+  }
+
+  .card-2{
+    width: 30%;
+    height:200px ;
+    background-color: #0e3d14;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.5rem;
+
+  }
+
+  .card-2 h1{
+    position: relative;
+    top: 3px;
+    left: 3px;
+
+  }
+
+
+
+/* ***************** attendence report file styling ******* */
+
+.attendence{
+
+  background-color: white;
+  padding: 30px;
+  padding-right: 60px;
+  border-radius:10px;
+  box-shadow: 0px 0px 10px #0e3d14(0, 0, 0, 0.1);
+  width: 300px;
+  height: 500px;
+  position: relative;
+  top: 200px;
+  left: 450px;
+
+  }
+
+  .mark-attendence{
+      width: 200px;
+      margin-left: -1px;
+  }
+
+  .dropdown select{
+  width: 274px;
+  
+  padding: 13px;
+  border-radius: 5px;
+}
+
+#studentName{
+  width: 239px;
+}
+
+#teacher{
+  width: 239px;
+}
+
+#std-data{
+  width: 200px;
+  margin-left: -1px;
+
+}
+
+#roll-no{
+  width: 244px;
+  
+  padding: 13px;
+  border-radius: 5px;
+}
+
+
+/*  *********** student details file styling ****** */
+
+.dropdown select {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 300px;
+  outline: none;
+}
+
+.dropdown select:hover {
+  background-color: #f5f5f5;
+}
+
+.dropdown select:focus {
+  border-color: #0e3d14;
+}
+.claas-details{
+    background-color: white;
+    padding: 30px;
+    padding-right: 60px;
+    border-radius:10px;
+    box-shadow: 0px 0px 10px #0e3d14(0, 0, 0, 0.1);
+    width: 400px;
+    height: 1109px;
+    position: relative;
+    top: 10px;
+    left: 250px;
+  }
+
+  .add-details{
+
+   width: 150px;
+  
+   margin-top: 10px;
+   
+
+
+  }
+
+  #studentName{
+    width: 270px;
+  }
+  #fatherName{
+    width: 270px;
+  }
+  #roll-no{
+    width: 274px;
+   
+    padding: 13px;
+    border-radius: 5px;
+  }
+  #contact-no{
+    width: 274px;
+    
+    padding: 13px;
+    border-radius: 5px;
+  }
+
+  #cnic-no{
+    width: 274px;
+ 
+    padding: 13px;
+    border-radius: 5px;
+  }
+
+  #teacher{
+
+    width: 299px;
+    
+    padding: 13px;
+    border-radius: 5px;
+
+  }

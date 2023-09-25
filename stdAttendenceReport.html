@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+      table {
+          border-collapse: collapse;
+          width: 50%;
+          margin: 20px auto;
+      }
+
+      table, th, td {
+          border: 1px solid black;
+          text-align: center;
+      }
+
+      th, td {
+          padding: 8px;
+      }
+
+      th {
+          background-color: #f2f2f2;
+      }
+
+      .delete-button, .edit-button {
+          background-color: #ff0000;
+          color: white;
+          border: none;
+          padding: 5px 10px;
+          cursor: pointer;
+      }
+
+      .hidden-form {
+          display: none;
+      }
+  </style>
+ 
+
+</head>
+<body>
+
+    <div class="header">
+        <h1>SMIT Attendence Application</h1>
+    
+        <div class="signup-navbar">
+          <h1>Student Attendence Report</h1>
+      
+          </div>
+        
+    
+      </div>
+
+
+      <div class="attendence">
+
+
+        <div class="input-group">
+          <label for="roll-no">Roll No.</label>
+          <input type="number" id="roll-no" placeholder="Enter your roll number">
+        </div>
+        <br>
+
+        <div class="input-group">
+            <label for="studentName">Student Name :</label>
+            <input type="text" id="studentName" placeholder="Enter the student name" value="">
+          </div>
+          <br>
+
+          <div class="input-group">
+            <label for="teacherName">Teacher Name</label>
+            <input type="text" id="teacher" placeholder="Enter the teacher name">
+          </div>
+          <br>
+
+
+
+
+
+        <div class="dropdown">
+                <div class="input-group">
+              <label for="email">Attendence of student:</label>
+              <select id="std-attendence">
+                <option value="">Mark student attendence</option>
+                <option value="Present">Present</option>
+                <option value="Absent">Absent</option>
+                <option value="Leave">Leave</option>
+              </select>
+            </div>
+            </div>
+
+            <button id="std-data">Cheeck Data</button>
+            <button class="mark-attendence" id="attendence-mark">Mark Attendence</button>
+
+
+
+<!--////////////////////////// attendence list ////////////// -->
+
+            
+          <table>
+              <thead>
+                  <tr>
+                      <th>Student Roll No.</th>
+                      <th>Student Name</th>
+                      <th>Attendence</th>
+                      
+                  </tr>
+              </thead>
+              <tbody id="student-table-body">
+                  <!-- Student records will be added here dynamically -->
+              </tbody>
+          </table>
+
+      
+    </div>
+
+
+
+
+
+    <script type="module" src="config.js"></script>
+    <script type="module" src="app.js"></script>
+</body>
+</html>
